@@ -1,0 +1,467 @@
+@import "reset.less";
+
+/*---------------- GENERALI --------------------*/
+
+.hidden {
+	display: none;
+}
+
+p.title {
+	font-family: 'Roboto','Helvetica Neue', sans-serif;
+	color:#fff;
+	font-size: 36px;
+	font-weight: 400;
+}
+
+h2.title {
+	font-family: 'Roboto','Helvetica Neue', sans-serif;
+	color:#fff;
+	font-size: 36px;
+	font-weight: 400;
+}
+
+
+div.container {
+	width:1024px;
+	margin:auto;
+}
+
+body p {
+	font-family: 'Roboto','Helvetica Neue', sans-serif;
+	color:#464646;
+	font-size: 22px;
+	font-weight: 100;
+	line-height: 40px;
+}
+
+/*---------------- MENU --------------------*/
+
+header.menu {
+	height: 60px;
+	background-color: #4584DB;
+	position: fixed;
+	width: 100%;
+	
+	h1 {
+		float: left;
+		margin-left: 30px;
+		line-height: 60px;
+	}
+	
+	a.menu_link {
+			font-family: 'Helvetica Neue', sans-serif;
+			color:#fff;
+			font-size: 20px;
+			font-weight: 100;
+			text-decoration: none;
+	}
+	
+	nav {
+		float: right;
+				
+		li {
+			display:inline;
+			margin-right: 30px;
+			line-height: 60px;
+		}
+	}
+}
+
+/*---------------- FIRST --------------------*/
+
+#first {
+	padding-top: 60px;
+	background-color: #5493E9;
+	height: 440px;
+	clear:both;
+	
+	div {
+		text-align: center;
+		
+		p {
+			text-align: center;
+			margin-top:47px;
+		}
+	
+		img.logo {
+			width:313px;
+			display: block;
+			margin: auto;
+			margin-top:40px;
+		}	
+		
+		a.appstore {
+			
+			img {
+				width: 135px;
+				margin-top: 40px;
+			}
+			
+		}
+	
+	}
+}
+
+/*---------------- WHAT IS --------------------*/
+
+#whatis {
+	height: 640px;
+	
+	div.container {
+		
+		padding-top:64px;
+		
+		img {
+			height: 507px;
+			width: 249px;;
+			float: left;
+		}
+		
+		div.side_container {
+			margin-left: 350px;
+			padding-top: 30px;
+			
+			h2 {
+				color:#5493E9;
+			}
+			
+			p {
+				margin-top: 30px;
+				font-size: 22px;
+			}
+			
+			
+			
+		}
+	}
+}
+
+/*---------------- FEATURES --------------------*/
+
+#features {
+	height: 800px;
+	background-color: #5493E9;
+	clear:both;
+	
+	div {
+		padding-top: 40px;
+		
+		h2 {
+			text-align: center;
+			}
+			
+		div.screen_1 {
+			float: left;
+			width: 341px;
+			text-align: center;
+
+			
+			p {
+				text-align: center;
+				color: #fff;
+			}
+			
+			img {
+				margin-top: 20px;
+				height: 497px;
+				box-shadow: 0px 0px 4px rgba(0, 0, 0, .3);
+				border-radius: 4px;
+			}	
+		}
+		
+		div.screen_2 {
+			float: left;
+			width: 341px;
+			text-align: center;
+
+			
+			p {
+				text-align: center;
+				color: #fff;
+			}
+			
+			img {
+				margin-top: 20px;
+				height: 497px;
+				box-shadow: 0px 0px 4px rgba(0, 0, 0, .3);
+				border-radius: 4px;
+			}	
+		}
+		
+		div.screen_3 {
+			float: left;
+			width: 341px;
+			text-align: center;
+			
+			p {
+				text-align: center;
+				color: #fff;
+			}
+			
+			img {
+				margin-top: 20px;
+				height: 497px;
+				box-shadow: 0px 0px 4px rgba(0, 0, 0, .3);
+				border-radius: 4px;
+			}	
+		}
+			
+		
+	}
+	
+}
+
+/*---------------- DOWNLOAD NOW --------------------*/
+
+
+#download {
+	background-image: url('http://static.formkey.co/img/pattern.png');
+	background-repeat: repeat;
+	background-size: 40%;
+	
+	div{
+		text-align: center;
+	}
+	
+	p {
+		color:#5493E9;
+		padding-top: 60px;
+		}
+	
+	img {
+		width: 135px;
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+
+}
+
+
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------  MOBILE  --------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 980px) {
+	
+	/*---------------- GENERALI --------------------*/
+	
+	.hidden {
+		display: none;
+	}
+	
+	p.title {
+		font-family: 'Roboto','Helvetica Neue', sans-serif;
+		color:#fff;
+		font-size: 32px;
+		font-weight: 400;
+	}
+	
+	h2.title {
+		font-family: 'Roboto','Helvetica Neue', sans-serif;
+		color:#fff;
+		font-size: 32px;
+		font-weight: 400;
+	}
+	
+	
+	
+	div.container {
+		width:95%;
+		margin:auto;
+	}
+	
+	
+	body p {
+		font-family: 'Roboto','Helvetica Neue', sans-serif;
+		color:#464646;
+		font-size: 22px;
+		font-weight: 200;
+		line-height: 40px;
+	}
+
+
+/*---------------- MENU --------------------*/
+
+	header.menu {
+		height: 60px;
+		background-color: #4584DB;
+		position: fixed;
+		width: 100%;
+		
+		h1 {
+			display: none;
+		}
+		
+		a.menu_link {
+				font-family: 'Helvetica Neue', sans-serif;
+				color:#fff;
+				font-size: 18px;
+				font-weight: 400;
+				text-decoration: none;
+		}
+		
+		nav {
+			float: none;
+			text-align: center;
+					
+			li {
+				display:inline;
+				margin-left: 10px;
+				margin-right: 10px;
+				line-height: 60px;
+			}
+		}
+	}
+
+
+/*---------------- FIRST --------------------*/
+
+	#first {
+		padding-top: 60px;
+		background-color: #5493E9;
+		height: 510px;
+		clear:both;
+		
+		div {
+			text-align: center;
+			
+			p {
+				text-align: center;
+				margin-top:47px;
+			}
+		
+			img.logo {
+				width:300px;
+				display: block;
+				margin: auto;
+				margin-top:40px;
+			}	
+			
+			a.appstore {
+				
+				img {
+					width: 135px;
+					margin-top: 40px;
+				}
+				
+			}
+		
+		}
+	}
+
+
+	/*---------------- WHAT IS --------------------*/
+	
+	#whatis {
+		height: auto;
+		
+		div.container {
+			
+			padding-top:50px;
+			text-align: center;
+			
+			img {
+				height: 507px;
+				width: 249px;;
+				float: none;
+			}
+			
+			div.side_container {
+				margin-left: 0px;
+				padding-top: 30px;
+				padding-bottom: 40px;
+				
+				h2 {
+					color:#5493E9;
+				}
+				
+				p {
+					margin-top: 20px;
+					font-size: 18px;
+					line-height: 30px;
+				}
+								
+			}
+		}
+	}
+
+
+/*---------------- FEATURES --------------------*/
+
+#features {
+	height: 1940px;
+	background-color: #5493E9;
+	clear:both;
+	
+	div {
+		padding-top: 40px;
+		
+		h2 {
+			text-align: center;
+		}
+		
+		div {
+			float: none !important;
+			width: auto !important;
+			text-align: center;
+			margin: 0 auto;
+			
+			p {
+				text-align: center;
+				color: #fff;
+			}
+			
+			img {
+				margin-top: 20px;
+				height: 497px;
+				box-shadow: 0px 0px 4px rgba(0, 0, 0, .3);
+				border-radius: 4px;
+			}	
+		}		
+		
+	}
+	
+}
+
+
+/*---------------- DOWNLOAD NOW --------------------*/
+
+	#download {
+		background-image: url('http://static.formkey.co/img/pattern.png');
+		background-repeat: repeat;
+		background-size: 80%;
+		
+		div{
+			text-align: center;
+		}
+		
+		p {
+			color:#5493E9;
+			padding-top: 60px;
+			}
+		
+		img {
+			width: 135px;
+			padding-top: 40px;
+			padding-bottom: 60px;
+		}
+	
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
